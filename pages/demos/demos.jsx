@@ -141,16 +141,19 @@ const Demos = () => {
         </div>
       </div>
       <header
-        className="works-header particles valign bg-img parallaxie"
+        className="works-header particles valign bg-img parallaxie position-relative"
         data-overlay-dark="4"
         style={{
-          backgroundImage: "url(/demo-img/bg.png)",
+          // backgroundImage: "url(/demo-img/bg.png)",
           minHeight: "100vh",
           zIndex: 99999,
         }}
       >
-        <Particles id="particles-js" options={particlesConfig} />
-        <div className="container">
+        {/* <Particles id="particles-js" options={particlesConfig} /> */}
+        <div className="position-absolute top-0 left-0 w-100">
+              <video loop className="w-100" autoPlay={true} muted={true} src="https://res.cloudinary.com/deelrff7c/video/upload/v1679224818/main/home/hero2_vpkrud.webm" />
+          </div>
+        {/* <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9 col-md-11 static">
               <div className="capt mt-50">
@@ -162,7 +165,8 @@ const Demos = () => {
               </div>
             </div>
           </div>
-        </div>
+          
+        </div> */}
       </header>
       <div className="main-content section-padding pb-0">
         <section className="masonery section-padding">
