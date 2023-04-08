@@ -3,6 +3,7 @@ import Split from "../Split";
 import AboutInfo1Data from "../../data/sections/about-info1.json";
 
 const AboutIntro = () => {
+  
   return (
     <section className="intro-section section-padding pb-0">
       <div className="container">

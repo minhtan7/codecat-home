@@ -1086,7 +1086,7 @@ span:hover {
 }
 
 .loading {
-  color: #fff;
+  color: black;
   position: fixed;
   left: 50%;
   top: calc(50% - 40px);

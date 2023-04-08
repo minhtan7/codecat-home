@@ -1,4 +1,4 @@
-import getSiblings from './getSiblings'
+import getSiblings from "./getSiblings";
 
 const cardMouseEffect = (featureEl) => {
   var featuresitems = featureEl;

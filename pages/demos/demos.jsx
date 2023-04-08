@@ -151,8 +151,14 @@ const Demos = () => {
       >
         {/* <Particles id="particles-js" options={particlesConfig} /> */}
         <div className="position-absolute top-0 left-0 w-100">
-              <video loop className="w-100" autoPlay={true} muted={true} src="https://res.cloudinary.com/deelrff7c/video/upload/v1679224818/main/home/hero2_vpkrud.webm" />
-          </div>
+          <video
+            loop
+            className="w-100"
+            autoPlay={true}
+            muted={true}
+            src="https://res.cloudinary.com/deelrff7c/video/upload/v1679224818/main/home/hero2_vpkrud.webm"
+          />
+        </div>
         {/* <div className="container">
           <div className="row justify-content-center">
             <div className="col-lg-9 col-md-11 static">
@@ -186,22 +192,19 @@ const Demos = () => {
           </div>
           <div className="container-fluid">
             <div className="row">
-            
-
               <div className="gallery full-width">
-                
                 <div className="col-lg-3 col-md-6 items">
                   <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/homepage/home8-dark" target="_blank">
-                        <div className="img">
-                          <img src="/demo-img/n3.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Architecture</h6>
-                        </div>
+                      <div className="img">
+                        <img src="/demo-img/n3.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Architecture</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -212,14 +215,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/homepage/home8-light">
-                      
-                        <div className="img">
-                          <img src="/demo-img/n03.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Architecture</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/n03.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Architecture</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -229,14 +230,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/homepage/home5-dark">
-                      
-                        <div className="img">
-                          <img src="/demo-img/3.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Digital Agency</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/3.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Digital Agency</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -247,36 +246,30 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/homepage/home5-light">
-                      
-                        <div className="img">
-                          <img src="/demo-img/03.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Digital Agency</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/03.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Digital Agency</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
               </div>
 
               <div className="gallery full-width">
-               
-
                 <div className="col-lg-3 col-md-6 items">
                   <div className="item-img wow fadeInUp" data-wow-delay=".4s">
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/homepage/home3-dark">
-                      
-                        <div className="img">
-                          <img src="/demo-img/5.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Corporate Business</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/5.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Corporate Business</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -287,14 +280,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/homepage/home3-light">
-                      
-                        <div className="img">
-                          <img src="/demo-img/05.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Corporate Business</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/05.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Corporate Business</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -307,14 +298,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/homepage/home6-dark">
-                      
-                        <div className="img">
-                          <img src="/demo-img/n1.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Modern Agency</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/n1.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Modern Agency</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -325,14 +314,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/homepage/home6-light">
-                      
-                        <div className="img">
-                          <img src="/demo-img/n01.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Modern Agency</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/n01.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Modern Agency</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -393,14 +380,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/showcase/showcase-dark">
-                      
-                        <div className="img">
-                          <img src="/demo-img/s1.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Full Screen</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/s1.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Full Screen</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -411,14 +396,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/showcase/showcase-light">
-                      
-                        <div className="img">
-                          <img src="/demo-img/s01.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Full Screen</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/s01.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Full Screen</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -429,14 +412,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/showcase4/showcase4-dark">
-                      
-                        <div className="img">
-                          <img src="/demo-img/s2.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Showcase Carousel</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/s2.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Showcase Carousel</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -447,14 +428,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/showcase4/showcase4-light">
-                      
-                        <div className="img">
-                          <img src="/demo-img/s02.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Showcase Carousel</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/s02.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Showcase Carousel</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -465,14 +444,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/showcase3/showcase3-dark">
-                      
-                        <div className="img">
-                          <img src="/demo-img/s3.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Showcase Circle</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/s3.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Showcase Circle</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -483,14 +460,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/showcase3/showcase3-light">
-                      
-                        <div className="img">
-                          <img src="/demo-img/s03.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Showcase Circle</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/s03.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Showcase Circle</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -501,14 +476,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/works/works-dark">
-                      
-                        <div className="img">
-                          <img src="/demo-img/w1.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Works 3 column</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/w1.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Works 3 column</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -519,14 +492,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/works/works-light">
-                      
-                        <div className="img">
-                          <img src="/demo-img/w01.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Works 3 column</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/w01.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Works 3 column</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -537,14 +508,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/works2/works2-dark">
-                      
-                        <div className="img">
-                          <img src="/demo-img/w2.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Works Filtering</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/w2.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Works Filtering</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -555,14 +524,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/works2/works2-light">
-                      
-                        <div className="img">
-                          <img src="/demo-img/w02.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Works Filtering</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/w02.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Works Filtering</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -573,14 +540,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/works3/works3-dark">
-                      
-                        <div className="img">
-                          <img src="/demo-img/w3.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Works Gallery</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/w3.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Works Gallery</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
@@ -591,14 +556,12 @@ const Demos = () => {
                     <span className="dot"></span>
                     <span className="dot"></span>
                     <Link href="/works3/works3-light">
-                      
-                        <div className="img">
-                          <img src="/demo-img/w03.png" alt="image" />
-                        </div>
-                        <div className="cont">
-                          <h6>Works Gallery</h6>
-                        </div>
-                      
+                      <div className="img">
+                        <img src="/demo-img/w03.png" alt="image" />
+                      </div>
+                      <div className="cont">
+                        <h6>Works Gallery</h6>
+                      </div>
                     </Link>
                   </div>
                 </div>
